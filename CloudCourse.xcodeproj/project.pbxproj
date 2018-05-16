@@ -7,21 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		190CB45120A97DBD0054DCFB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190CB45020A97DBD0054DCFB /* AppDelegate.swift */; };
 		190CB45320A97DBD0054DCFB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190CB45220A97DBD0054DCFB /* ViewController.swift */; };
-		190CB45620A97DBD0054DCFB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 190CB45420A97DBD0054DCFB /* Main.storyboard */; };
-		190CB45820A97DBE0054DCFB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 190CB45720A97DBE0054DCFB /* Assets.xcassets */; };
-		190CB45B20A97DBE0054DCFB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 190CB45920A97DBE0054DCFB /* LaunchScreen.storyboard */; };
+		190CB46D20A998C10054DCFB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 190CB46620A998C00054DCFB /* Assets.xcassets */; };
+		190CB46E20A998C10054DCFB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 190CB46720A998C00054DCFB /* LaunchScreen.storyboard */; };
+		190CB46F20A998C10054DCFB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 190CB46920A998C00054DCFB /* Main.storyboard */; };
+		190CB47020A998C10054DCFB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190CB46B20A998C10054DCFB /* AppDelegate.swift */; };
+		190CB47120A998C10054DCFB /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 190CB46C20A998C10054DCFB /* Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		190CB44D20A97DBD0054DCFB /* CloudCourse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CloudCourse.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		190CB45020A97DBD0054DCFB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		190CB45220A97DBD0054DCFB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		190CB45520A97DBD0054DCFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		190CB45720A97DBE0054DCFB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		190CB45A20A97DBE0054DCFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		190CB45C20A97DBE0054DCFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		190CB46620A998C00054DCFB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		190CB46820A998C00054DCFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		190CB46A20A998C10054DCFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		190CB46B20A998C10054DCFB /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		190CB46C20A998C10054DCFB /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +55,46 @@
 		190CB44F20A97DBD0054DCFB /* CloudCourse */ = {
 			isa = PBXGroup;
 			children = (
-				190CB45020A97DBD0054DCFB /* AppDelegate.swift */,
+				190CB46420A998C00054DCFB /* Controllers */,
+				190CB46320A998C00054DCFB /* Models */,
+				190CB46520A998C00054DCFB /* Supporting Files */,
+				190CB46220A998C00054DCFB /* Views */,
 				190CB45220A97DBD0054DCFB /* ViewController.swift */,
-				190CB45420A97DBD0054DCFB /* Main.storyboard */,
-				190CB45720A97DBE0054DCFB /* Assets.xcassets */,
-				190CB45920A97DBE0054DCFB /* LaunchScreen.storyboard */,
-				190CB45C20A97DBE0054DCFB /* Info.plist */,
 			);
 			path = CloudCourse;
+			sourceTree = "<group>";
+		};
+		190CB46220A998C00054DCFB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		190CB46320A998C00054DCFB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		190CB46420A998C00054DCFB /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		190CB46520A998C00054DCFB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				190CB46620A998C00054DCFB /* Assets.xcassets */,
+				190CB46720A998C00054DCFB /* LaunchScreen.storyboard */,
+				190CB46920A998C00054DCFB /* Main.storyboard */,
+				190CB46B20A998C10054DCFB /* AppDelegate.swift */,
+				190CB46C20A998C10054DCFB /* Info.plist */,
+			);
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,9 +155,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				190CB45B20A97DBE0054DCFB /* LaunchScreen.storyboard in Resources */,
-				190CB45820A97DBE0054DCFB /* Assets.xcassets in Resources */,
-				190CB45620A97DBD0054DCFB /* Main.storyboard in Resources */,
+				190CB47120A998C10054DCFB /* Info.plist in Resources */,
+				190CB46F20A998C10054DCFB /* Main.storyboard in Resources */,
+				190CB46D20A998C10054DCFB /* Assets.xcassets in Resources */,
+				190CB46E20A998C10054DCFB /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,28 +169,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				190CB47020A998C10054DCFB /* AppDelegate.swift in Sources */,
 				190CB45320A97DBD0054DCFB /* ViewController.swift in Sources */,
-				190CB45120A97DBD0054DCFB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		190CB45420A97DBD0054DCFB /* Main.storyboard */ = {
+		190CB46720A998C00054DCFB /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				190CB45520A97DBD0054DCFB /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		190CB45920A97DBE0054DCFB /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				190CB45A20A97DBE0054DCFB /* Base */,
+				190CB46820A998C00054DCFB /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		190CB46920A998C00054DCFB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				190CB46A20A998C10054DCFB /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -281,12 +315,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = CloudCourse/Info.plist;
+				DEVELOPMENT_TEAM = WZCA99V8R2;
+				INFOPLIST_FILE = "$(SRCROOT)/CloudCourse/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.watermelon.CloudCourse;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xigua.ins;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -298,12 +334,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = CloudCourse/Info.plist;
+				DEVELOPMENT_TEAM = WZCA99V8R2;
+				INFOPLIST_FILE = "$(SRCROOT)/CloudCourse/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.watermelon.CloudCourse;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xigua.ins;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
